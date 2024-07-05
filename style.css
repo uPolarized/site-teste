@@ -1,0 +1,104 @@
+header{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 30px;
+    gap: 10px;
+   
+
+
+}
+
+
+.texto{
+    color: rgb(173, 184, 177);
+    background-color: rgb(112, 112, 150);
+
+    
+}
+
+
+.botoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px;
+    gap: 50px;
+    color: aqua;
+    
+
+
+}
+
+
+body {
+    background-image: url('./fotos/dark-souls-3-8k-om-1920x1080.jpg');
+}
+
+.background1 {
+    background-image: url('./fotos/bo3.jpg'); 
+} 
+
+.background2{
+    background-image: url('./fotos/rhanni.jpeg');
+}
+
+.background3{
+    background-image: url('./fotos/destiny.jpg');
+}
+
+.background4{
+    background-image: url('./fotos/HALO.jpg');
+}
+
+
+
+
+
+.container {
+    gap: ;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+button {
+    color: aquamarine;
+    background-color: rgba(71, 63, 69, 0.397);
+}
+
+div {
+    height: 100%;
+    width: 100%;
+}
+
+.cod{
+    background-color: rgb(112, 112, 150);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    text-shadow: 2px 2px 5px rgb(114, 37, 37);
+    text-align: justify;
+}
+
+.elden {
+    background-color: rgb(112, 112, 150);
+    text-shadow: 2px 2px 5px rgb(114, 37, 37);
+    text-align: justify;
+}
+
+.destiny {
+    background-color: rgb(112, 112, 150);
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(114, 37, 37);
+    text-align: justify;
+}
+
+.halo{
+    background-color: rgb(112, 112, 150);
+    text-shadow: 2px 2px 5px rgb(114, 37, 37);
+    text-align: justify;
+}
+
